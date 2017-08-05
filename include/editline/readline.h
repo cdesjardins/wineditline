@@ -40,7 +40,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #define _READLINE_H_
 
 #include <windows.h>
-
+#ifdef __cplusplus
+extern "C" {
+#endif
 /*
 these defines may be changed
 */
